@@ -1,0 +1,78 @@
+body {
+    background-image: url("images/pexels-photo-1591447.jpeg");
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    background-color: gray;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Cambria;
+    position: static;
+    top: 10px;
+    left: 15px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    border: 5px solid black;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+table, th, td {
+    border: 0px solid black;
+    font-family: 'Gill Sans';
+    text-align: left;
+    font-weight: bold;
+    width: 25%;
+    padding: 15px;
+    margin-top: 15px;
+    }
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: burlywood;
+    height: 50px;
+    text-align: center;
+}
+
+tr {
+    background-color: lightyellow;
+}
+p {
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Gill Sans';
+   text-align: left;
+   margin: 30px;
+   padding: 10px;
+   background-color: lightgray;
+   position: static;
+   width: 50%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    border: 2px solid black;
+    position: static;
+}
+
+footer {
+    font-size: 17px;
+    background-color: lightgray;
+    width: 50%;
+}
+
+nav li {
+    background-color: lightgray;
+    width: 25%;
+}
+
