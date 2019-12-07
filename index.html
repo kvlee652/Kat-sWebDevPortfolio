@@ -1,28 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="./main.css" type="text/css" rel="stylesheet">
-  </head>
+<!doctype html>
+<head>
+<title>Weather Widget</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="main.css" rel="stylesheet">
+</head>
 <body>
-        <header>
-      <nav><ul>
-        <li><a href="/index.html/">Home</a></li> 
-        <li><a href="/interests.html/">My Interests</a></li>
-        <li><a href="/favoritesites.html/">Favorite Sites</a></li> 
-        <li><a href="/futureplans.html/">Future Plans</a></li> 
-      </nav></ul> 
-    </header>                       
-        <h1><em>A Little About Me</h1></em>
-        <img src="Images\IMG_2291.jpg" width="500" height="400">
-        <p>My name is <strong>Katherine Lee</strong>, or <strong>Kat</strong> for short.
-            I have lived in Southeast Idaho, with my three boys, for the past ten years.<br>
-            Other places I have lived include: Japan, North Carolina, Virginia, California, Nevada, Indiana, and Utah.<br>
-            And yes, I was a <q>military brat</q>! I have three boys (23, 20, and 14). They are funny, quirky kids.
-            They make me smile and laugh every day!
-        </p>
-       <img src="Images\IMG_5816.jpg" width="500" height="400"> 
+	<div id="wrapper">
+	<header>
+		<figure class="wu"><img src="weatherLogo.png"></figure>
+    <h1>~Wonderful Weather Widget~</h1>
     </header>
-    <footer>Copyright &#169; 2019 by Katherine Lee</footer>
-    </body>
-   </html>
+<main>
+<section id="left">
+	<div id="location">City ID</div>
+	<div id="day"></div>
+	<div id="temperature" onclick="toggleTempUnit(this)"></div>
+	<div id="weather">Current Conditions</div>
+	<span><img id="icon" src="download (1).png" alt="overcast clouds"></span>
+	<div id="desc">Wind Speed</div>
+</section>
+
+<section id="right">
+<div>
+	<span id="r1c1"></span>
+	<span><img id="r1c2" src="download (1).png" alt="overcast clouds"></span>
+	<span id="r1c3"></span>
+	<span id="r1c4"></span>
+</div>	
+
+<div>
+	<span id="r2c1"></span>
+	<span><img id="r2c2" src="images.png" alt="light snow"></span>
+	<span id="r2c3"></span>
+	<span id="r2c4"></span>
+</div>	
+
+<div>
+	<span id="r3c1"></span>
+	<span><img id="r3c2" src="images.png" alt="light snow"></span>
+	<span id="r3c3"></span>
+	<span id="r3c4"></span>
+</div>	
+<div>
+	<span id="r4c1"></span>
+	<span><img id="r4c2" src="images.png" alt="light snow"></span>
+	<span id="r4c3"></span>
+	<span id="r4c4"></span>
+</div>
+</section>    
+</main>
+</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>
 
